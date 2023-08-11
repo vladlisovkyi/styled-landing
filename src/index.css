@@ -1,0 +1,35 @@
+:root {
+  --primary: #645cff;
+  --mainBorder: 1px solid red;
+  --white: #fff;
+  --button: #4c88e0;
+  --button-hover: #69a2f5;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body.overflow-hidden{
+  overflow: hidden;
+}
+img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+
+section {
+  padding: 2rem 5%;
+}
+
+@media screen and (max-width: 768px) {
+  section {
+    padding: 0 2.5%;
+  }
+}
